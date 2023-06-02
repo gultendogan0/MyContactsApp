@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/listFragment"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/baseline_family_restroom_24"
+            android:title="@string/family" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/baseline_emoji_people_24"
+            android:title="@string/friends" />
+
+        <item
+            android:id="@+id/workFragment"
+            android:icon="@drawable/baseline_work_24"
+            android:title="@string/work" />
+
+        <item
+            android:id="@+id/otherFragment"
+            android:icon="@drawable/baseline_auto_awesome_motion_24"
+            android:title="@string/other" />
+    </group>
+</menu>
